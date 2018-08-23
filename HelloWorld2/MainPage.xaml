@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="HelloWorld2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Record" HorizontalAlignment="Left" Margin = "258,340,0,0" VerticalAlignment="Top" Click="Click_Record" FontSize ="20" Width="174" Height="33"/>
+        <TextBox x:Name ="Output" HorizontalAlignment="Left" Margin="258,52,0,0" Text="Output" TextWrapping="Wrap" VerticalAlignment="Top" Height="165" Width="394" FontSize="24"/>
+        <Button Content="Setup Menu" HorizontalAlignment="Left" Margin="258,301,0,0" VerticalAlignment="Top" Height="36" Width="174" FontSize="20" Click="Click_SetupMenu"/>
+        <Button Content="Script" HorizontalAlignment="Left" Margin="454,302,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20" Click="Click_Script"/>
+        <Button Content="Result" HorizontalAlignment="Left" Margin="454,342,0,0" VerticalAlignment="Top" Height="31" Width="172" FontSize="20" Click="Click_Result"/>
+        <TextBlock x:Name="Menu" HorizontalAlignment="Left" Height="321" Margin="26,52,0,0" Text="Menu" VerticalAlignment="Top" Width="207" FontSize="24"/>
+    </Grid>
+</Page>
